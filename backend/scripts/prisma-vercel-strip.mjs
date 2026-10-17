@@ -5,6 +5,7 @@
 //
 // Safe to run repeatedly: deletes nothing but darwin-named / .dylib files, and
 // restoring them later is just `npx prisma generate`.
+// prisma
 
 import { rmSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
